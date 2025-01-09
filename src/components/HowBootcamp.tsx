@@ -30,7 +30,7 @@ const TheCards: ITheCards[] = [
 const HowBootcamp = () => {
   return (
     <>
-      <div className="w-auto h-auto mt-2 mb-2  flex items-center justify-between gap-2 bg-black px-10 py-10 text-black  ">
+      <div className="w-auto h-auto   flex items-center justify-between gap-2 bg-black px-10 py-10 text-black  ">
         <div className=" bg-black w-[100%] pt-12 pb-18 rounded-t-[20px] rounded-b-[20px]">
           <div className=" bg-black w-[100%] pt-12 pb-18 rounded-t-[20px]">
             <h1 className=" text-white flex justify-center items-center text-7xl font-bold">

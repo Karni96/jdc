@@ -2,7 +2,7 @@
 
 const Whoweare = () => {
   return (
-    <section className="pt-14 pb-14 bg-black text-white px-4">
+    <section className="pt-10 pb-14 bg-black text-white px-4">
       <div className="max-w-7xl mx-auto px-6 sm:px-10 flex flex-col items-center">
         {/* Title Section */}
         <header className="text-center mb-10">

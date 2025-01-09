@@ -13,7 +13,7 @@ import Technologies from "./pages/Technologies";
 function App() {
   return (
     <Router>
-      <div className="w-full overflow-hidden ">
+      <div className="w-full overflow-hidden relative   ">
 
 
           {/* <Hooks /> */}

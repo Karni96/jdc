@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 const cards = [
   { title: "Innovation", img: "inovation.png" },

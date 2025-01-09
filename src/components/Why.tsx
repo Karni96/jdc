@@ -104,12 +104,11 @@
 
 
 
-import React from 'react';
 
 const Why = () => {
   return (
     <>
-      <div className=" px-4 md:px-20 bg-black text-white mb-10 pb-10">
+      <div className=" px-4 md:px-20 bg-black text-white  pb-10">
         <div className="flex justify-center rounded items-center">
           <div className="rounded-[10px] text-xl my-5 text-white py-10 px-10 w-[900px] border-solid border-2 border-slate-150 bg-gradient-to-r from-cyan-500 to-pink-600">
             <h1 className="text-2xl py-3">Why Choose Us</h1>
@@ -148,17 +147,17 @@ const Why = () => {
             <p className="text-center text-xl">From ideation to deployment, we’re with you every step of the way.</p>
           </div>
 
-          <div className="h-auto w-[25%] min-w-[300px] p-5 shadow-lg shadow-pink-500/100 opacity-90 rounded-[10px] border-2 border-slate-950 hover:bg-gradient-to-r from-cyan-400 to-blue-500 hover:text-black">
+          {/* <div className="h-auto w-[25%] min-w-[300px] p-5 shadow-lg shadow-pink-500/100 opacity-90 rounded-[10px] border-2 border-slate-950 hover:bg-gradient-to-r from-cyan-400 to-blue-500 hover:text-black">
             <img src="End-to-EndSupport.jpg" className="h-[200px] w-[200px] mt-3 rounded-[10px] mx-auto" alt="End-to-End Support" />
             <h1 className="text-center text-2xl pt-2">End-to-End Support</h1>
             <p className="text-center text-xl">From ideation to deployment, we’re with you every step of the way.</p>
-          </div>
+          </div> */}
 
-          <div className="h-auto w-[25%] min-w-[300px] p-5 shadow-lg shadow-pink-500/100 opacity-90 rounded-[10px] border-2 border-slate-950 hover:bg-gradient-to-r from-cyan-400 to-blue-500 hover:text-black">
+          {/* <div className="h-auto w-[25%] min-w-[300px] p-5 shadow-lg shadow-pink-500/100 opacity-90 rounded-[10px] border-2 border-slate-950 hover:bg-gradient-to-r from-cyan-400 to-blue-500 hover:text-black">
             <img src="End-to-EndSupport.jpg" className="h-[200px] w-[200px] mt-3 rounded-[10px] mx-auto" alt="End-to-End Support" />
             <h1 className="text-center text-2xl pt-2">End-to-End Support</h1>
             <p className="text-center text-xl">From ideation to deployment, we’re with you every step of the way.</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

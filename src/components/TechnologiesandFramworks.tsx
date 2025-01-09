@@ -3,7 +3,7 @@ const TechnologiesandFrameworks = () => {
     { src: "python.svg", alt: "Python Logo", text: "PYTHON", iconSize: "w-10" },
     { src: "azure.svg", alt: "Azure Logo", text: "AZURE", iconSize: "w-10" },
     { src: "django.svg", alt: "Django Logo", text: "DJANGO", iconSize: "w-10" },
-    { src: "nodejs.jpg", alt: "Node.js Logo", text: "NODE.JS", iconSize: "w-20" },
+    // { src: "nodejs.jpg", alt: "Node.js Logo", text: "NODE.JS", iconSize: "w-20" },
     { src: "react.svg", alt: "React Logo", text: "REACT", iconSize: "w-14" },
     { src: "rust.jpg", alt: "Rust Logo", text: "RUST", iconSize: "w-20" },
     { src: "elastic.svg", alt: "Elastic Stack Logo", text: "ELASTIC STACK", iconSize: "w-32" },
@@ -18,9 +18,9 @@ const TechnologiesandFrameworks = () => {
   ];
 
   return (
-    <div id="Technologies" className="w-full px-4 flex justify-center flex-col">
+    <div id="Technologies" className="w-full px-4 mt-10 overflow-hidden border-2  flex justify-center  flex-col scroll ">
       {/* Header Section */}
-      <div className="flex justify-center items-center gap-x-4  mb-8">
+      <div className="flex justify-center items-center gap-x-4  mb-10">
         <h1 className="text-2xl font-bold hover:underline">Technologies and Frameworks</h1>
       </div>
 

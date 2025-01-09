@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const Footer = () => {
   return (
@@ -14,12 +14,9 @@ const Footer = () => {
         {/* Address and Map Section */}
         <div className="w-full flex flex-col md:flex-row items-center md:items-start gap-6 p-4">
           <div className="md:w-[30%]">
-            <h1 className="text-xl font-bold">Address</h1>
-            <p>The address of the company</p>
-            <p>Floor number</p>
-            <p>Cabin number</p>
-            <p>Building name</p>
-            <p>Landmark</p>
+            <address className="flex flex-col justify-center items-center font-bold">301 Third Floor 
+            <p>North Avenue, </p> <p> 9-a, Sikar Rd, </p> <p> Vishwakarma Industrial Area, </p> <p> Jaipur, Rajasthan 302013 </p>
+            </address>
           </div>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28440.2515202564!2d75.77272319999999!3d26.9975552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db268ed97e5b7%3A0xa93669df9794889c!2sNorth%20Avenue%2C%20Vishwakarma%20Industrial%20Area%2C%20Jaipur%2C%20Rajasthan%20302013!5e0!3m2!1sen!2sin!4v1735803780184!5m2!1sen!2sin"

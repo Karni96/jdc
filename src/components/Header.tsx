@@ -1,7 +1,5 @@
+import { useEffect, useState } from "react";
 
-
-import { useState } from "react";
-import {scroll} from "motion"
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,10 +7,39 @@ const Header = () => {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+  const [visible, setVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+    
+      const currentScrollY = window.scrollY;
+
+      
+      if (currentScrollY > lastScrollY && currentScrollY > 50) {
+        setVisible(false); // Hide the header
+      } else if (currentScrollY < lastScrollY) {
+        setVisible(true); // Show the header
+      }
+
+    
+      setLastScrollY(currentScrollY);
+    };
+
+    // Listen to scroll events
+    window.addEventListener('scroll', handleScroll);
+
+    // Cleanup the event listener
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [lastScrollY]);
 
   return (
-    <header className="text-white w-full bg-black h-auto fixed top-0 left-0 right-0 z-50 shadow-lg">
-      <div className="max-w-7xl mx-auto flex justify-between items-center px-6  py-4  ">
+    <header className={`text-white w-full  bg-black h-auto fixed inset-x-0   top-0 left-0 right-0 z-50 shadow-lg transition-transform duration-300 ${
+        visible ? "transform translate-y-0" : "transform -translate-y-full"
+      }`}>
+      <div className="max-w-7xl mx-auto flex  justify-between items-center px-6  py-4  ">
         {/* Logo */}
         <div>
           <a href="/">
@@ -58,22 +85,15 @@ const Header = () => {
           } absolute md:relative top-[90px] md:top-0 left-0 w-full md:w-auto bg-black md:flex md:items-center`}
         >
           <ul className="flex flex-col md:flex-row md:gap-8 p-6 md:p-0">
-            <li>
+            {/* <li>
               <a
                 href="#Technologies"
                 className="block py-2 text-lg hover:text-yellow-300"
               >
                 Services
               </a>
-            </li>
-            <li>
-              <a
-                href="#Technologies"
-                className="block py-2 text-lg hover:text-yellow-300"
-              >
-                Technologies
-              </a>
-            </li>
+            </li> */}
+            <li> <a href="#Technologies" className="block py-2 text-lg hover:text-yellow-300 ">Technologies </a></li>
             <li>
               <a href="#" className="block py-2 text-lg hover:text-yellow-300">
                 Industries
@@ -100,9 +120,10 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a 
+              <a
+                style={{ transitionDelay: "5000" }}
                 href="#contact-us"
-                className="block py-2 text-lg hover:text-yellow-300"
+                className="block py-2 text-lg hover:text-yellow-300 transition-transform duration-300 "
               >
                 Contact Us
               </a>

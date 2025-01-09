@@ -14,7 +14,7 @@ import Why from "../components/Why"
 function HomePage() {
   return (
     
-    <div className="   w-full	 ">
+    <div className="  w-full	 ">
     
       <Hero/>
       <Countdown />
