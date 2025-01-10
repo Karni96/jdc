@@ -7,6 +7,7 @@ const Contactus = () => {
         <div className=" mt-10" >
             <ContactUs/>
         </div>
+        
      </div>
   )
 }
