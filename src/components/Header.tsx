@@ -44,7 +44,7 @@ const Header = () => {
         <div>
           <a href="/">
             <img
-              className="w-40 md:w-52"
+              className="w-40  md:w-52"
               src="jdclogo.png"
               alt="JDC Analytics Logo"
             />
