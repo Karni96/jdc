@@ -12,7 +12,7 @@ import Technologies from "./pages/Technologies";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/jdc" >
       <div className="w-full overflow-hidden relative   ">
 
 
