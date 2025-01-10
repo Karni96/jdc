@@ -12,7 +12,7 @@ import Technologies from "./pages/Technologies";
 
 function App() {
   return (
-    <Router basename="/jdc" >
+    <Router >
       <div className="w-full overflow-hidden relative   ">
 
 
@@ -21,10 +21,10 @@ function App() {
 
           <Header />
           <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/services" element={<Services/>}/>
-            <Route path="/contact-us" element={<Contactus/>}></Route>
-            <Route path="/technologies" element={<Technologies/>}></Route>
+            <Route path="/jdc/" element={<HomePage />} />
+            <Route path="/jdc/services" element={<Services/>}/>
+            <Route path="/jdc/contact-us" element={<Contactus/>}></Route>
+            <Route path="/jdc/technologies" element={<Technologies/>}></Route>
           </Routes>
           <Footer />
 
