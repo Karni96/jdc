@@ -5,7 +5,7 @@ const ContactUs = () => {
     <>
       <div
       id="contact-us"
-        className="flex flex-col md:flex-row  w-full h-auto md:h-[90vh] justify-between  bg-white "
+        className="flex flex-col md:flex-row mb-5  w-full h-auto xl:h-[100vh] lg:h-[90vh]  md:h-[90vh] justify-between  bg-white "
       >
         {/* Left Section */}
         <div className="w-full md:w-[50%] pt-10  md:pt-20 bg-blue-700  flex flex-col items-center text-center">
@@ -32,7 +32,7 @@ const ContactUs = () => {
         </div>
 
         {/* Right Section */}
-        <div className="w-full md:w-[50%] mt-20 md:p-10">
+        <div className="w-full md:w-[50%] md:h-[50vh] lg:h-[50vh] mt-20 md:p-10">
           <form className="space-y-6 pl-10 pr-10">
             <div className="flex flex-col md:flex-row items-center justify-between">
               <label className="mb-2 md:mb-0 md:mr-4 w-full md:w-[30%]" htmlFor="">
@@ -86,7 +86,7 @@ const ContactUs = () => {
 
             <div className="flex justify-center mt-5">
               <button
-                className="bg-indigo-500 md:mb-10 sm:mb-2 text-white font-bold py-2 px-8 rounded-lg hover:bg-indigo-600 transform hover:scale-110 transition-transform duration-300"
+                className="bg-indigo-500 md:mb-10 sm:mb-2 mb-2 text-white font-bold py-2 px-8 rounded-lg hover:bg-indigo-600 transform hover:scale-110 transition-transform duration-300"
                 type="submit"
               >
                 Submit

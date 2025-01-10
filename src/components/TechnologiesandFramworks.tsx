@@ -18,18 +18,18 @@ const TechnologiesandFrameworks = () => {
   ];
 
   return (
-    <div id="Technologies" className="w-full px-4 mt-10 overflow-hidden border-2  flex justify-center  flex-col scroll ">
+    <div id="Technologies" className="w-full h-auto px-4 mt-10 overflow-hidden border-2  flex justify-center  flex-col scroll ">
       {/* Header Section */}
       <div className="flex justify-center items-center gap-x-4  mb-10">
         <h1 className="text-2xl font-bold hover:underline">Technologies and Frameworks</h1>
       </div>
 
       {/* Technology Cards */}
-      <div className=" flex justify-evenly flex-wrap gap-4 ">
+      <div className=" flex justify-evenly flex-wrap gap-12  ">
         {techData.map((item, index) => (
           <div
             key={index}
-            className=" w-40 md:w-40 h-40 md:h-36 bg-red-50 flex flex-col items-center justify-center text-sm text-center my-auto rounded-full md:rounded-md hover:scale-[1.1] "
+            className=" w-40 h-40 md:w-40  md:h-36  lg:w-52  lg:h-40  xl:w-[260px] xl:h-[200px] 2xl:w-[320px] 2xl:h-[250px] 3xl:w-[400px] bg-red-50 flex flex-col items-center justify-center text-sm text-center my-auto rounded-full md:rounded-md hover:scale-[1.1] "
           >
             <img className={item.iconSize} src={item.src} alt={item.alt} />
             <p className=" font-bold text-center hidden md:block">{item.text}</p>
