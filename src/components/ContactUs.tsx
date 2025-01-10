@@ -8,7 +8,7 @@ const ContactUs = () => {
         className="flex flex-col md:flex-row  w-full h-auto md:h-[80vh] justify-between  bg-white "
       >
         {/* Left Section */}
-        <div className="w-full md:w-[50%] pt-10 pl-5 pr-5 md:pt-20 bg-blue-700 pb-10 flex flex-col items-center text-center">
+        <div className="w-full md:w-[50%] pt-10  md:pt-20 bg-blue-700 pb-10 flex flex-col items-center text-center">
           <a href="">
             <img
               className="w-[150px] md:w-[200px] mb-5"
@@ -33,7 +33,7 @@ const ContactUs = () => {
 
         {/* Right Section */}
         <div className="w-full md:w-[50%] mt-20 md:p-10">
-          <form className="space-y-6">
+          <form className="space-y-6 pl-5 pr-5">
             <div className="flex flex-col md:flex-row items-center justify-between">
               <label className="mb-2 md:mb-0 md:mr-4 w-full md:w-[30%]" htmlFor="">
                 Enter your name

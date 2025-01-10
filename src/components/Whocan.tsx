@@ -13,7 +13,7 @@ const Whocan = () => {
     <div className="w-full bg-black text-white mt-5 pt-10 pb-10 rounded-2xl shadow-lg hover:shadow-green-900">
       {/* Section Title */}
       <div className="flex justify-center items-center mb-10">
-        <h1 className="text-4xl w-[90%] md:w-[400px] text-center rounded-[10px] bg-blue-400 py-2 hover:shadow-[blue_-1px_-1px_11px_10px] opacity-90 text-white">
+        <h1 className="text-4xl w-[90%] md:w-[400px] text-center rounded-[10px] bg-blue-400 py-2 hover:shadow-[blue_-1px_-1px_11px_10px] md:opacity-90 text-white">
           We Work In This Manner
         </h1>
       </div>
