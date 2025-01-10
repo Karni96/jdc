@@ -44,7 +44,7 @@ const Header = () => {
         <div>
           <a href="/">
             <img
-              className="w-16 md:w-48"
+              className="w-40 md:w-52"
               src="jdclogo.png"
               alt="JDC Analytics Logo"
             />
@@ -93,32 +93,40 @@ const Header = () => {
                 Services
               </a>
             </li> */}
-            <li> <a href="#Technologies" className="block py-2 text-lg hover:text-yellow-300 ">Technologies </a></li>
-            <li>
+            <li> <a href="#Technologies" className="block py-2 text-lg hover:text-yellow-300 ">
+              Technologies 
+              </a>
+              </li>
+            {/* <li>
               <a href="#" className="block py-2 text-lg hover:text-yellow-300">
                 Industries
               </a>
-            </li>
-            <li>
+            </li> */}
+
+            {/* <li>
               <a href="#" className="block py-2 text-lg hover:text-yellow-300">
                 Portfolio
               </a>
-            </li>
-            <li>
+            </li> */}
+
+            {/* <li>
               <a href="#" className="block py-2 text-lg hover:text-yellow-300">
                 Company
               </a>
-            </li>
-            <li>
+            </li> */}
+
+            {/* <li>
               <a href="#" className="block py-2 text-lg hover:text-yellow-300">
                 Blog
               </a>
-            </li>
-            <li>
+            </li> */}
+
+            {/* <li>
               <a href="#" className="block py-2 text-lg hover:text-yellow-300">
                 Resources
               </a>
-            </li>
+            </li> */}
+
             <li>
               <a
                 style={{ transitionDelay: "5000" }}
