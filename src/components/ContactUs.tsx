@@ -86,7 +86,7 @@ const ContactUs = () => {
 
             <div className="flex justify-center mt-5">
               <button
-                className="bg-indigo-500 md:mb-10 mb-2 text-white font-bold py-2 px-8 rounded-lg hover:bg-indigo-600 transform hover:scale-110 transition-transform duration-300"
+                className="bg-indigo-500 md:mb-10 sm:mb-2 text-white font-bold py-2 px-8 rounded-lg hover:bg-indigo-600 transform hover:scale-110 transition-transform duration-300"
                 type="submit"
               >
                 Submit
